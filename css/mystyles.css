@@ -231,7 +231,7 @@ section#cta {
 /* =========================
    國樂照片
 ========================= */
-.img-fluid rounded {
+.chinese-music {
     width: 100%;          /* 寬度佔滿格線欄位 */
     aspect-ratio: 1 / 1;  /* 強制寬高比為 1:1（正方形） */
     object-fit: cover;    /* 避免圖片被壓扁變形，會自動裁切滿版 */
