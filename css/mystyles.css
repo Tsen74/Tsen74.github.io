@@ -237,3 +237,9 @@ section#cta {
     object-fit: cover;    /* 避免圖片被壓扁變形，會自動裁切滿版 */
     border-radius: 12px;  /* 設定圓角大小（數字越大越圓） */
   }
+  .northernthailand-img {
+    width: 100%;          /* 寬度佔滿格線欄位 */
+    height: auto;         /* 高度自動縮放，保留照片原本的長方形比例 */
+    object-fit: contain;  /* 確保圖片不被裁切 */
+    border-radius: 12px;  /* 設定圓角大小 */
+}
